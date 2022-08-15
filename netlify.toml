@@ -4,9 +4,3 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-[[plugins]]
-  [plugins.inputs.postBuild]
-    enable = false
-
-  [plugins.inputs]
-    enable = false
