@@ -10,6 +10,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-family: ain;
+  height: 100%;
 }
 
 .title {
@@ -17,47 +18,33 @@ body {
   font-size: 3rem;
 }
 
-.header.header--date {
-  color: #e38f9e;
-}
-
-.desc.desc--text {
-  font-size: 2rem;
-}
-
-.desc.desc--link {
-  font-size: 2rem;
-
-}
-
-.desc.desc--link a {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  color: #afb6bb;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 * {
   box-sizing: border-box;
 }
 
-main {
-  padding: 5rem;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
+#__next {
+  display: contents;
 }
 
+.caption {
+  position: absolute;
+  left: 0;
+  bottom: 10%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption a {
+  color: #b2713a8a
+}
 
 .container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-image: url(/images/stinty.jpg);
+  height: 100%;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
