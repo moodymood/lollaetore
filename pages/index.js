@@ -23,7 +23,7 @@ export default function Home() {
           </div>
           <div>Non abbiamo una lista nozze, ma se vi va potete mandarci da qualche parte in giro per il mondo.</div>
         </div>
-        <div class="footer"><a href="https://paypal.me/lollaetore">Fateci partire</a></div>
+        <div class="footer"><a href="https://paypal.me/lollaetore">Fateci volare!</a></div>
 
       </div>
 
